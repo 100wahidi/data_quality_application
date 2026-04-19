@@ -1,12 +1,9 @@
 {
   "name": "app",
-  "version": "0.0.0",
-  "private": true,
-  "description": "+ node modules",
   "homepage": "https://100wahidi.github.io/data_quality_application",
-  "bugs": {
-    "url": "https://github.com/100wahidi/data_quality_application/issues"
-  },
+  "private": true,
+  "version": "0.0.0",
+  "description": "+ node modules",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/100wahidi/data_quality_application.git"
