@@ -15,6 +15,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['styles/index.css'],
+      outDir: "dist"
     },
   },
    
