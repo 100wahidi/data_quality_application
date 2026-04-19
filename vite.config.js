@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      styles: path.resolve(__dirname, './styles'),
+      styles: path.resolve(__dirname, '/styles'),
     },
   },
   build: {
@@ -17,4 +17,5 @@ export default defineConfig({
       external: ['styles/index.css'],
     },
   },
+   
 });

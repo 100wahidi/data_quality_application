@@ -36,5 +36,5 @@ export const router = createBrowserRouter([
     element: createElement(Navigate, { to: "/login", replace: true }),
   },
 ], {
-  basename:"/projecy_app",
+  basename:"/data_quality_application",
 });
