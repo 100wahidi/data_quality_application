@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "homepage": "https://100wahidi.github.io/app_directory/",
+  "homepage": "https://100wahidi.github.io/data_quality_application/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b main -r https://github.com/100wahidi/app_directory.git"
-  },
+    "predeploy": "npm run build"  },
   "dependencies": {
     "firebase": "^12.11.0",
     "lucide-react": "^0.577.0",
